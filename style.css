@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #548687;
+  background-color: #fbf273;
   text-align: center;
 }
 
@@ -31,20 +31,28 @@ body {
   width: 18vmin;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  font-size: 8vmin;
-  color: #b0413e;
-  background-color: #ffffc7;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  font-size: 9vmin;
+  color: #f05151;
+  background-color: #bfe6ef;
 }
 
 #reset-btn {
   padding: 1rem;
-  font-size: 1.25rem;
-  background-color: #191913;
-  color: #fff;
+  font-size: 1.78rem;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 1rem;
   border: none;
+  transition: background-color 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+  }
 }
+
 
 #new-btn {
   padding: 1rem;
