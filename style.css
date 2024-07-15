@@ -67,15 +67,24 @@ body {
 #new-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #191913;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 1rem;
   border: none;
+  transition: background-color 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.009);
+  }
+}
 }
 
 #msg {
   color: #000000;
-  font-size: 8vmin;
+  font-size: 10vmin;
 }
 
 .msg-container {
